@@ -6,4 +6,11 @@
     <color name="ind_red">#B30E17</color>
     <color name="blue_light">#00C0E4</color>
     <color name="material_orange">#ffEF6C00</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="talk_text_hint_c3">#e2e2e2</color>
+    <color name="talk_main_btn_normal">#833bfa</color>
+    <color name="mainpage_indicator">#833bfa</color>
+    <color name="default_divider_color">#e2e2e2</color>
+    <color name="mainpage_tab_title">#999999</color>
 </resources>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">StoryPlayer</string>
+    <string name="main_tab_room">Room</string>
+    <string name="main_tab_people">People</string>
+    <string name="main_tab_message">Message</string>
+    <string name="main_tab_me">Me</string>
 </resources>

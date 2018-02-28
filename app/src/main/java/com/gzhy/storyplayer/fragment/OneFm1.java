@@ -10,12 +10,6 @@ import android.view.ViewGroup;
 import com.gzhy.storyplayer.R;
 
 public class OneFm1 extends Fragment {
-
-    private String name;
-
-    public void setArguments(Bundle args){
-        name = args.getString("name");
-    }
 //    @Nullable
 //    @Override
 //    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

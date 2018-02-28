@@ -1,27 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#ffffff"
+        android:paddingTop="24dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/btn_back"
+            />
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="240dp"
+            android:layout_height="36dp"
+            android:background="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/btn_searchicon"
+            android:drawablePadding="6dp"
+            android:textSize="16sp"
+            android:hint="搜索或输入网址"/>
+
+    </RelativeLayout>
     <android.support.design.widget.TabLayout
-            android:id="@+id/tablayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#E0E0E0"
-            app:tabIndicatorColor="@color/ind_red"
-            app:tabMode="fixed"
-            app:tabSelectedTextColor="@color/material_orange"
-            app:tabTextColor="@android:color/black"
-            app:tabIndicatorHeight="5dp"
-            app:tabTextAppearance="@style/TabStyle"
-    />
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        app:tabIndicatorColor="@color/ind_red"
+        app:tabIndicatorHeight="2dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/material_orange"
+        app:tabTextAppearance="@style/TabStyle"
+        app:tabTextColor="@android:color/black" />
+
     <android.support.v4.view.ViewPager
-            android:id="@+id/tab_viewpager"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@android:color/white" />
+        android:id="@+id/tab_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white" />
 
 </LinearLayout>

@@ -78,7 +78,6 @@ public class MainActivity extends FragmentActivity implements TabHost.OnTabChang
             View v = tabw.getChildAt(i);
             TextView tv = (TextView) v.findViewById(R.id.foot_tv);
             ImageView iv = (ImageView) v.findViewById(R.id.foot_iv);
-
 //            修改当前的界面按钮颜色图片
             if (i == mTabHost.getCurrentTab()){
                 tv.setTextColor(Color.rgb(255,0,0));

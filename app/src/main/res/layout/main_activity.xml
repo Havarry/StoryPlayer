@@ -11,7 +11,6 @@
         android:layout_above="@+id/main_tab"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="10dp"
         />
 
     <android.support.v4.app.FragmentTabHost
@@ -24,10 +23,19 @@
 
     </android.support.v4.app.FragmentTabHost>
 
-    <ImageView
+    <RelativeLayout
         android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/btn_player" />
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_btn_player"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/btn_player" />
+
+    </RelativeLayout>
+
 </RelativeLayout>

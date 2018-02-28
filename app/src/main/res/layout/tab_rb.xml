@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RadioButton
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:background="@drawable/tab_rb_selector"
+        android:background="#000000"
         android:button="@null"
         android:paddingBottom="10dp"
         android:paddingLeft="15dp"
