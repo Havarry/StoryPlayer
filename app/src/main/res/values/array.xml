@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mainpage_item">
+        <item>专辑</item>
+        <item>已下载</item>
+        <item>正在下载</item>
+    </string-array>
+</resources>
